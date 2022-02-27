@@ -18,7 +18,7 @@ const groupId = Number(process.env.KOBITON_ORGANIZATION_GROUP_ID)
 
 const kobitonServerConfig = {
   protocol: 'https',
-  host: 'api.kobiton.com',
+  host: 'api-test.kobiton.com',
   auth: `${username}:${apiKey}`
 }
 
